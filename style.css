@@ -187,3 +187,14 @@ header ul {
     font-weight: bold;
     font-size: larger;
 }
+
+footer {
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > p {
+    color: white;
+}
