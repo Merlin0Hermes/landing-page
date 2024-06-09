@@ -95,6 +95,8 @@ header ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40px;
+    padding: 50px 0;
 }
 .information .head {
     font-size: 36px;
@@ -108,10 +110,16 @@ header ul {
     gap: 30px;
 }
 
-.body div {
+.information .body div {
     display: flex;
     flex-direction: column;
     flex-basis: 150px;
     text-align: center;
+}
+
+.information .card {
+    border: #3882F6 solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
