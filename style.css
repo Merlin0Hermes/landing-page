@@ -129,7 +129,7 @@ header ul {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    flex-basis: 400px;
+    flex-basis: 350px;
     justify-content: center;
     align-items: center;
 }
@@ -147,3 +147,44 @@ header ul {
     max-width: 50%;
 }
 
+
+.signup {
+    display: flex;
+    flex-basis: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup > div {
+    background-color: #3882F6;
+    display: flex;
+    min-width: 400px;
+    min-height: 100px;
+    padding: 0 100px;
+    gap: 100px;
+    border-radius: 10px;
+}
+
+.signup button {
+    background-color: #3882F6;
+    border: white solid;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 30px;
+}
+
+.sign-main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.signup .but {
+    align-self: center;
+}
+
+.sign-main .action {
+    font-weight: bold;
+    font-size: large;
+}
