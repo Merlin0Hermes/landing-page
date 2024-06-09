@@ -94,10 +94,24 @@ header ul {
 .information {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .information .head {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+}
+
+.information .body {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.body div {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 150px;
+    text-align: center;
 }
 
