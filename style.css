@@ -97,6 +97,7 @@ header ul {
     align-items: center;
     gap: 40px;
     padding: 50px 0;
+    padding-bottom: 80px;
 }
 .information .head {
     font-size: 36px;
@@ -107,7 +108,7 @@ header ul {
 .information .body {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .information .body div {
