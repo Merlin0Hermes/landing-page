@@ -70,8 +70,7 @@ header ul {
 
     height: 250px;
     width: 550px;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .hero button {
@@ -88,7 +87,6 @@ header ul {
     font-size: 18px;
     color: #E5E7EB;
 }
-
 
 .information {
     display: flex;
@@ -123,7 +121,6 @@ header ul {
     margin-bottom: 10px;
 }
 
-
 .quote {
     background-color: #E5E7EB;
     display: flex;
@@ -145,7 +142,6 @@ header ul {
     font-weight: 300;
     max-width: 50%;
 }
-
 
 .signup {
     display: flex;
